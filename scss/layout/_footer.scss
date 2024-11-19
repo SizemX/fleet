@@ -1,0 +1,51 @@
+footer {
+  padding-top: 80px;
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    line-height: 32px;
+  }
+  a {
+    display: block;
+    color: #777e90;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  a:hover {
+    color: black;
+  }
+  .login__title {
+    color: #23262f;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  input {
+    padding: 14px 58px;
+    border-radius: 90px;
+    border: #777e9015 solid 2px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+}
+label{
+    position: relative;
+}
+button {
+  position: absolute;
+  border: none;
+  background:none;
+  z-index: 1;
+  right: 8px;
+  top: -6px;
+  outline: none;
+    
+
+}
+.footer__end{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top : 24px;
+    
+}
+margin-bottom : 24px;
+}
